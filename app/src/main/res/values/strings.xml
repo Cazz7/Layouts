@@ -7,4 +7,5 @@
     <string name="password">Contraseña:</string>
     <string name="hint1">Ingrese aquí su nombre</string>
     <string name="hint2">Ingrese aquí su contraseña</string>
+    <string name="press">Button</string>
 </resources>
