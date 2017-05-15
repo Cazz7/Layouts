@@ -4,8 +4,10 @@
     <string name="pruebaTextView">Prueba Text View</string>
     <string name="pruebaTextView2">Seteando text View</string>
     <string name="nombre">Nombre:</string>
+    <string name="saludo">Hola Mundo</string>
     <string name="password">Contraseña:</string>
-    <string name="hint1">Ingrese aquí su nombre</string>
+    <string name="hint1">Ingresar dato</string>
     <string name="hint2">Ingrese aquí su contraseña</string>
-    <string name="press">Button</string>
+    <string name="press">Cambiar Dato</string>
+    <string name="press2">Cambiar Dato 2</string>
 </resources>
