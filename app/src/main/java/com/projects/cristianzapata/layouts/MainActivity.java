@@ -1,5 +1,6 @@
 package com.projects.cristianzapata.layouts;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.StringRes;
 import android.support.design.widget.FloatingActionButton;
@@ -25,13 +26,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        texto = (TextView) findViewById(R.id.textView1);
         edit  = (EditText) findViewById(R.id.editText1);
         boton = (Button) findViewById(R.id.button1);
-        boton2 = (Button) findViewById(R.id.button2);
 
         boton.setOnClickListener(this); // Sólo este elemento tendrá habilitado el boton
-        boton2.setOnClickListener(this);// Igual aquí
     }
 
     @Override
@@ -62,11 +60,14 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             case R.id.button1:
                 String textoIngresado;
                 textoIngresado = edit.getText().toString();
-                texto.setText(textoIngresado);
+//                texto.setText(textoIngresado);
+                Intent intent1 = new Intent(MainActivity.this,Activity2.class);
+                intent1.putExtra("Dato",textoIngresado);
+                startActivity(intent1);
                 break;
-            case R.id.button2:
-                texto.setText("Usted presionó el botón 2");
-                break;
+//            case R.id.button2:
+//                texto.setText("Usted presionó el botón 2");
+//                break;
         }
     }
 }

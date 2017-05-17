@@ -22,18 +22,7 @@
             android:layout_height="wrap_content"
             android:id="@+id/button1"
             android:text="@string/press"/>
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/button2"
-            android:text="@string/press2"/>
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textSize="20sp"
-            android:gravity="center"
-            android:text="@string/saludo"
-            android:id="@+id/textView1"/>
+
 
 </LinearLayout>
 
